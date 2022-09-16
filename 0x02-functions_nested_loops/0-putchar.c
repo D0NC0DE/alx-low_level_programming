@@ -6,15 +6,15 @@
 
 int main(void)
 {
-	char str[] = "_putchar";
+	char str[] = "_putchar\n";
 
 	int i = 0;
 
-	while (i < 8)
+	while (i < 9)
 	{
 		_putchar(str[i]);
 		i++;
 	}
-	_putchar('\n');
+	
 	return(0);
 }
